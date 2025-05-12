@@ -12,6 +12,10 @@ b = ones(n)
 x = rand(n)
 ###
 
+
+#commentaire ajouteeeee
+
+
 # vérification
 using Test
 @test norm(A * x - b) ≤ sqrt(eps()) * norm(b)
