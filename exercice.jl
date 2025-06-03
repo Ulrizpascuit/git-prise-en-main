@@ -6,15 +6,7 @@ A = [1.0  2.0  3.0;
      3.0  3.5 -4.0]
 b = ones(n)
 
-# résoudre Ax = b
-
-### votre code ici ; ne rien modifier d'autre
 x = A \ b
-###
-
-
-#commentaire ajouteeeee
-
 
 # vérification
 using Test
